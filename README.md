@@ -1,1 +1,2 @@
-This project is live at https://kenduiwat.github.io/image-slider/
+VIEW THIS PROJECT AT:
+https://kenduiwat.github.io/image-slider/
