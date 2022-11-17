@@ -1,1 +1,1 @@
-This project is live at https://ossolola.github.io/Week7-Carousel-Task/
+This project is live at https://kenduiwat.github.io/image-slider/
