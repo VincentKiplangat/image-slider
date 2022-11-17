@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        
+        <div class="container">
+            <div class="image-div img1">
+                <img src="img/audi.jpg" alt="tataaudi">
+            </div>
+            <div class="image-div img2">
+                <img src="img/benz.jpg" alt="tatabenz">
+            </div>
+            <div class="image-div img3">
+                <img src="img/bmw.jpg" alt="tatabmw">
+            </div>
+            <div class=" image-div img4">
+                <img src="img/ferarri.jpg" alt="tataferarri">
+            </div>
+            <div class="image-div img5">
+                <img src="img/maserati.jpg" alt="tatamaserati">
+            </div>
+            <div class="image-div img6">
+                <img src="img/mustang.jpg" alt="tataudi">
+            </div>
+
+            <div class="button-container hidden">
+                <a class="prev" onclick = "nextImage(-1)" >❮</a>
+                <a class="next" onclick = "nextImage(1)">❯</a>
+            </div>
+        </div>
+        <br>
+
+        <div class="dot-container">
+            <span class="dot" onclick = "currentImage(1)" ></span>
+            <span class="dot" onclick = "currentImage(2)" ></span>
+            <span class="dot" onclick = "currentImage(3)" ></span>
+            <span class="dot" onclick = "currentImage(4)" ></span>
+            <span class="dot" onclick = "currentImage(5)" ></span>
+            <span class="dot" onclick = "currentImage(6)" ></span>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
