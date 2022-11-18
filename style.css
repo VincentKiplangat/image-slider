@@ -24,6 +24,11 @@ main {
 
 .image-div {
     display: none;
+    position: relative;
+    float: relative;
+    width: 600px;
+    height: 360px;
+    background-position: 50% 50%;
     /* max-width: 600px; */
 }
 
